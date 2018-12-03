@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Applying to a Job in Computrabajo","Succesful Application","SUCCESS","2018-12-02T23:22:00.662-05:00[America/Bogota]","0.0","38.24"
+"Log in to computrabajo","Logs in computrabajo","SUCCESS","2018-12-02T22:00:18.087-05:00[America/Bogota]","0.0","19.69"
+"Log in to computrabajo","Logs in computrabajo","SUCCESS","2018-12-02T23:22:41.375-05:00[America/Bogota]","0.0","18.16"
+"Registering in computrabajo","Unsuccesful registry","FAILURE","2018-12-02T23:22:59.739-05:00[America/Bogota]","0.0","53.27"
+"Choose a Job","Choosing a Java Job","SUCCESS","2018-12-02T22:07:30.816-05:00[America/Bogota]","0.0","19.34"
+"Choose a Job","Choosing a Java Job","SUCCESS","2018-12-02T23:23:53.522-05:00[America/Bogota]","0.0","16.91"

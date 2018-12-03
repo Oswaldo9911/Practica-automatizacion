@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e70ebe209b2f0f71919479fd5150348ca1b50626f7bfad0d5286d8af9d961173.html">Registering In Computrabajo</a></span>
+                > <span class="truncate-60"><a
+                    href="697101b205c2984d1daea7daa03e5c2f1bc2ab601f0c58649013ef9af40adf78.html">Unsuccesful registry </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-12-2018 23:22</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registering In Computrabajo</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a new user in computrabajo, I want to register to apply to the jobs
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e2a38dbde3e464fae8956ddb9b4d1e8d9f4c6f28a3fd21bef5338c7413c3a7b8.html">Unsuccesfulregistry
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html">Register
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Unsuccesful registry
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that David goes to the web<br>When he clicks the registry button<br>And tries to register with his old information<br>Then he should see the message "Obligatorio"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Your bad registering was worst than bad - org.openqa.selenium.NoSuchElementException: Expected condition failed: waiting for By.id: AccessModel_Email-error to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'RC-PC', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.computrabajo.www.certificacion.stepsdefinitions.RegisterStepsDefinitions.i_should_see_the_message(RegisterStepsDefinitions.java:55)<br />✽.he should see the message "Obligatorio"(src/test/resources/co/com/computrabajo/www/certificacion/features/Register.feature:13)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5049823837486109342.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="103fb6b9feeb2d898b86bf1347751c716847167ca8c7d013768320eba9778603.png" title="Example #1: {Name=David, Lastnames=Ayala Gomez, Email=, Password=olakase123, Desired Job=Ingeniero, Department=Antioquia}" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="Given that David goes to the web" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="David opens the browser on Google Home Page" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="David opens the Computrabajo home page" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="Then the search field" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="When he clicks the registry button" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="When he clicks the registry button" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="David clicks on register option" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="David clicks on register option" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="And tries to register with his old information
+| Name | Lastnames | Email | Password | Desired Job | Department |
+| David | Ayala Gomez |  | olakase123 | Ingeniero | Antioquia |" width="1034"/>
+                <img src="0d2aea1eab11fe20fe650e4a8f8ac94bde197961f3baa0fc2aac451dd75477fd.png" title="And tries to register with his old information
+| Name | Lastnames | Email | Password | Desired Job | Department |
+| David | Ayala Gomez |  | olakase123 | Ingeniero | Antioquia |" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="David enters 'David' into name input text" width="1034"/>
+                <img src="980e3abc829e84acfea1edafd6f7f3bccd16c82d27aaa8587d35529b1b09d866.png" title="David enters 'David' into name input text" width="1034"/>
+                <img src="4afd541862d3cab1ae0a1353b1f32b1d1709eb85c5ef8c3584fbdb9e9f37b6f4.png" title="David enters 'Ayala Gomez' into lastnames input text" width="1034"/>
+                <img src="0e3bc1cc182470561365d840e5a070130c2a3f09ee56fd15ffc6236b7bde0812.png" title="David enters 'Ayala Gomez' into lastnames input text" width="1034"/>
+                <img src="6fe8a3215457d24a37c67daa7303c678629b6e8e8c4bd98a76f9e97ce3a8428c.png" title="David enters '' into email input text" width="1034"/>
+                <img src="b08fbb9be24f00b2823c1c35a266c43e5e119e66192fd4999aa2da6f145d6449.png" title="David enters '' into email input text" width="1034"/>
+                <img src="628b4152711e79241b5a74613f26f483c30a891d00e21de7e1d29064418b8db8.png" title="David enters 'olakase123' into password input text" width="1034"/>
+                <img src="1bbd9111d2da8590a363015b9de8b3e1d344dc5c27495ec021b6aaab40701e50.png" title="David enters 'olakase123' into password input text" width="1034"/>
+                <img src="703a55eab142aa4fc0dd9b9a79aede6f1ecdc7c6188283a932a1a7352e0fc24d.png" title="David enters 'Ingeniero' into desired position input text" width="1034"/>
+                <img src="33a9b16177b072814629db992b0e19fc4250c239a08e826af375faf229eb6554.png" title="David enters 'Ingeniero' into desired position input text" width="1034"/>
+                <img src="3b0120027cd59e21609a1a8fda6a50bf6c7d517eb4f2a3acceba41fc615b03d1.png" title="David clicks on department dropdown list" width="1034"/>
+                <img src="e23747a6dcc2b2ffe03683b9262bc649b46cf10bb5f35093c806f67d5738b007.png" title="David clicks on department dropdown list" width="1034"/>
+                <img src="ad9b6503b89d5cdfa5eb58fa2c9f23c3ad7d993f8b17d19dae85bea83552bec5.png" title="David clicks on button to continue with the registry" width="1034"/>
+                <img src="103fb6b9feeb2d898b86bf1347751c716847167ca8c7d013768320eba9778603.png" title="David clicks on button to continue with the registry" width="1034"/>
+                <img src="0d2aea1eab11fe20fe650e4a8f8ac94bde197961f3baa0fc2aac451dd75477fd.png" title="Then he should see the message &quot;Obligatorio&quot;" width="1034"/>
+                <img src="103fb6b9feeb2d898b86bf1347751c716847167ca8c7d013768320eba9778603.png" title="Then the error message should be 'Obligatorio'" width="1034"/>
+                <img src="0d2aea1eab11fe20fe650e4a8f8ac94bde197961f3baa0fc2aac451dd75477fd.png" title="Then the error message should be 'Obligatorio'" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="Given that David goes to the web" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="David opens the browser on Google Home Page" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="David opens the Computrabajo home page" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="Then the search field" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="When he clicks the registry button" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="When he clicks the registry button" width="1034"/>
+                <img src="85c17b24f7920c46572bfab7e5b5e1395176b72a750f74e0684dc38cce7e37b7.png" title="David clicks on register option" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="David clicks on register option" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="And tries to register with his old information
+| Name | Lastnames | Email | Password | Desired Job | Department |
+|  | Ayala Gomez | maracuta_david@hotmail.com | olakase123 | Ingeniero | Antioquia |" width="1034"/>
+                <img src="51fa7c654f2a2b62e595a841d54c7e50240c6e8a91a2741b76986a5bbf0d8b0e.png" title="And tries to register with his old information
+| Name | Lastnames | Email | Password | Desired Job | Department |
+|  | Ayala Gomez | maracuta_david@hotmail.com | olakase123 | Ingeniero | Antioquia |" width="1034"/>
+                <img src="b96124e36e956cd582924065ded3af9104194a4833b063bf59241db7b2bbaa20.png" title="David enters '' into name input text" width="1034"/>
+                <img src="6eb20d7b963c8822cd54bd3c7cad49d60f3b43fc93cea977477c1e3722ff96e3.png" title="David enters '' into name input text" width="1034"/>
+                <img src="7b70d84c3fc13ffca92f03e3d7c3f9b646d34b4ecec8a954bfda347a83a1f33c.png" title="David enters 'Ayala Gomez' into lastnames input text" width="1034"/>
+                <img src="2d8833ac9ede69c0351e59938508830dd77128bfeacbccabab6ce3d7cbbade75.png" title="David enters 'Ayala Gomez' into lastnames input text" width="1034"/>
+                <img src="e5b7611513b30d11ee7d917608c679d854c44299ba4e953fc1a3e62e2d818904.png" title="David enters 'maracuta_david@hotmail.com' into email input text" width="1034"/>
+                <img src="1ae66c09951b21a1bc25f5d421cdbcd8dee8a960031cbb64a3d313dac0cedf14.png" title="David enters 'maracuta_david@hotmail.com' into email input text" width="1034"/>
+                <img src="80d6d90b8e52055ad2a96e6d61bc3db34427199a99f17192997ba633980e4e40.png" title="David enters 'olakase123' into password input text" width="1034"/>
+                <img src="0c75deb4c9ede5ea6cd588c822f32d791d5f5448370a4f0ef5e42bf6b8007f1e.png" title="David enters 'olakase123' into password input text" width="1034"/>
+                <img src="8169788eb3bf015346785474bebdfc05cf03876873f974709114fdd955edc276.png" title="David enters 'Ingeniero' into desired position input text" width="1034"/>
+                <img src="9fb5b014b3889bdc74de59c6e7d51acef1c5d9601fc9cf2bb9408721e9f77e25.png" title="David enters 'Ingeniero' into desired position input text" width="1034"/>
+                <img src="8cca2ee61afa0d3ef92d2146f6d8cf7de5edb61abcd21d7f0b4a77f30ec397df.png" title="David clicks on department dropdown list" width="1034"/>
+                <img src="13575de486a0cc21e45e69ab3a486e7e0b40c65bb73b7fceb7f4b9113d94f29b.png" title="David clicks on department dropdown list" width="1034"/>
+                <img src="8be4a81a639737cd18578f4e24ebb8697ddaef76f8bb8ddc25a85bba02ed2876.png" title="David clicks on button to continue with the registry" width="1034"/>
+                <img src="e14fc6cfdc1acb93eaade138305eae2633a10f5a9976ba6325388dae6966b54c.png" title="David clicks on button to continue with the registry" width="1034"/>
+                <img src="51fa7c654f2a2b62e595a841d54c7e50240c6e8a91a2741b76986a5bbf0d8b0e.png" title="Then he should see the message &quot;Obligatorio&quot;" width="1034"/>
+                <img src="e14fc6cfdc1acb93eaade138305eae2633a10f5a9976ba6325388dae6966b54c.png" title="Then the error message should be 'Obligatorio'" width="1034"/>
+                <img src="51fa7c654f2a2b62e595a841d54c7e50240c6e8a91a2741b76986a5bbf0d8b0e.png" title="Then the error message should be 'Obligatorio': <span class='failing-color'>FAILURE</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.8</span>
+</div>
+</body>
+</html>

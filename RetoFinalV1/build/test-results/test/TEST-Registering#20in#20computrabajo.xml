@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registering in computrabajo" tests="2" skipped="0" failures="1" errors="0" timestamp="2018-12-03T04:22:59" hostname="RC-PC" time="53.27">
+  <properties/>
+  <testcase name="Unsuccesful registry" classname="Registering in computrabajo" time="24.123"/>
+  <testcase name="Unsuccesful registry" classname="Registering in computrabajo" time="29.145">
+    <failure message="java.lang.AssertionError: Your bad registering was worst than bad - org.openqa.selenium.NoSuchElementException: Expected condition failed: waiting for By.id: AccessModel_Email-error to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'RC-PC', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">java.lang.AssertionError: Your bad registering was worst than bad - org.openqa.selenium.NoSuchElementException: Expected condition failed: waiting for By.id: AccessModel_Email-error to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RC-PC', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.computrabajo.www.certificacion.stepsdefinitions.RegisterStepsDefinitions.i_should_see_the_message(RegisterStepsDefinitions.java:55)
+	at ✽.he should see the message &quot;Obligatorio&quot;(src/test/resources/co/com/computrabajo/www/certificacion/features/Register.feature:13)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[dic 02, 2018 11:22:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+dic 02, 2018 11:23:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Unsuccesful registry
+----------------------------------------------------------------------------
+dic 02, 2018 11:23:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+dic 02, 2018 11:23:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Unsuccesful registry
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then the error message should be 'Obligatorio'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Your bad registering was worst than bad - org.openqa.selenium.NoSuchElementException: Expected condition failed: waiting for By.id: AccessModel_Email-error to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'RC-PC', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: unknown
+]]></system-err>
+</testsuite>
